@@ -11,6 +11,7 @@ function depends_openparsec-rpi() {
 }
 
 function install_bin_openparsec-rpi() {
+    getDepends libsdl2-mixer-2.0-0 libsdl2-2.0-0 libraspberrypi0
     gitPullOrClone "$md_inst" https://github.com/CrazySpence/openparsec-rpi.git
 }
 
