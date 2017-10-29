@@ -15,7 +15,8 @@ git clone https://github.com/CrazySpence/cs-retropie-ports.git
 
 ./install_experimental.sh
 
-run retropie_setup.sh 
+run retropie_setup.sh
+
 go to manage packages > experimental
 
 Select openparsec-rpi
