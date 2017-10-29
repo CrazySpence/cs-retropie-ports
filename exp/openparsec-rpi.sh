@@ -17,4 +17,6 @@ function install_bin_openparsec-rpi() {
 
 function configure_openparsec-rpi() {
     cp /opt/retropie/ports/openparsec-rpi/es/OpenParsec.sh /home/pi/RetroPie/roms/ports/
+    touch $md_inst/parsecrc.con
+    chmod 777 $md_inst/parsecrc.con
 }
