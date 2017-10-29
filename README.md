@@ -13,9 +13,11 @@ https://github.com/OpenParsec/openparsec
 
 git clone https://github.com/CrazySpence/cs-retropie-ports.git
 
+cd cs-retropie-ports
+
 ./install_experimental.sh
 
-run retropie_setup.sh
+run sudo retropie_setup.sh in ~/RetroPie-Setup
 
 go to manage packages > experimental
 
